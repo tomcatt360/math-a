@@ -29,7 +29,7 @@
 					<?php
 						$f_2_c=($_GET["temp"]-32)*5/9;
 					?>
-					Celsius: <?=$f_2_c?>
+					Input (F): <?=$_GET["temp"]?> Celsius: <?=$f_2_c?>
 				</p>
 				<!--End processing F -> C-->
 				<?php }else{ ?>
@@ -38,7 +38,7 @@
 					<?php
 						$c_2_f=$_GET["temp"]*9/5+32;
 					?>
-					Fahrenheit:<?=$c_2_f?>
+					Input (C): <?=$_GET["temp"]?> Fahrenheit:<?=$c_2_f?>
 				</p>
 				<!--End processing C -> F-->
 				<?php } ?>
