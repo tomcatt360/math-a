@@ -10,12 +10,12 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 	if (is_numeric($number1) && is_numeric($number2) && is_numeric($number3)){
 		// If the numbers are not null, and the numbers are truly numbers, Process input.
 		// FIXME Add more comparisons
-		if ($number1 > $number2){
-			echo "Number 1 is greater than Number 2"
-		}elseif ($number1 < $number2){
-			echo "Number 2 is greater than Number 1"
-		}else{
-			echo "Numbers 1 & 2 are equal"
+		
+		if ($number1 == $number2){
+			if ($number1 == $number3){
+				echo "All Three Numbers are equal"
+			}else{
+				echo "the numbers are not all equal"
 		}
 		echo "<a href=\"./index.php\">Compare more numbers</a>"
 	}else{
