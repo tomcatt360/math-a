@@ -14,14 +14,16 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 		if ($number1 == $number2){
 			if ($number1 == $number3){
 				echo "All Three Numbers are equal"
+			}elseif ($number1 > $number3){
+				echo "Number 1 and Number 2 are equal, Number 3 is less than each of them."
 			}else{
-				echo "the numbers are not all equal"
+				echo "Number 1 and Number 2 are equal, Number 3 is greater than each of them."
 		}
 		echo "<a href=\"./index.php\">Compare more numbers</a>"
 	}else{
 		// User input wrong
-		echo "<h1>User Input Wrong</h1>"
-		echo "<br><a href=\"./index.php\">Back</a>"
+		echo "<h1>User Input Wrong</h1><br>
+		<a href=\"./index.php\">Back</a>"
 	}
 }else{
 	// User has not entered anything, Show form
