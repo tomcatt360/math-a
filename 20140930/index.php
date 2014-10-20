@@ -1,23 +1,23 @@
 <?php
-include './header.php'
+include './header.php';
 
-echo "<h1>tomcatt's Number Comparator<h1>"
+echo "<h1>tomcatt's Number Comparator<h1>";
 
-$number1=$_GET[number1]
-$number2=$_GET[number2]
+$number1=$_GET[number1];
+$number2=$_GET[number2];
 if ($number1 != null && $number2 != null) {
 	if (is_numeric($number1) && is_numeric($number2)){
 		// If the numbers are not null, and the numbers are truly numbers, Process input.
 		if ($number1 > $number2){
-			echo "Number 1 is greater than Number 2"
+			echo "Number 1 is greater than Number 2";
 		}elseif ($number1 < $number2){
-			echo "Number 2 is greater than Number 1"
+			echo "Number 2 is greater than Number 1";
 		}else{
-			echo "Numbers 1 & 2 are equal"
+			echo "Numbers 1 & 2 are equal";
 		}
 	}else{
 		// User input wrong
-		echo "<h1>User Input Wrong</h1>"
+		echo "<h1>User Input Wrong</h1>";
 	}
 }else{
 	// User has not entered anything, Show form
@@ -27,5 +27,5 @@ if ($number1 != null && $number2 != null) {
 	<input type=\"submit\" value=\"Submit\">
 	</form><hr>";
 }
-include './footer.php'
+include './footer.php';
 ?>
