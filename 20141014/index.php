@@ -1,11 +1,11 @@
 <?php
-include './header.php'
+include './header.php';
 
-echo "<h1>tomcatt's Number Comparator<h1>2.0"
+echo "<h1>tomcatt's Number Comparator</h1>2.0";
 
-$number1=$_GET[number1]
-$number2=$_GET[number2]
-$number3=$_GET[number3]
+$number1=$_GET[number1];
+$number2=$_GET[number2];
+$number3=$_GET[number3];
 if ($number1 != null && $number2 != null && $number3 != null) {
 	if (is_numeric($number1) && is_numeric($number2) && is_numeric($number3)){
 		// If the numbers are not null, and the numbers are truly numbers, Process input.
@@ -13,17 +13,18 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 		
 		if ($number1 == $number2){
 			if ($number1 == $number3){
-				echo "All Three Numbers are equal"
+				echo "All Three Numbers are equal";
 			}elseif ($number1 > $number3){
-				echo "Number 1 and Number 2 are equal, Number 3 is less than each of them."
+				echo "Number 1 and Number 2 are equal, Number 3 is less than each of them.";
 			}else{
-				echo "Number 1 and Number 2 are equal, Number 3 is greater than each of them."
+				echo "Number 1 and Number 2 are equal, Number 3 is greater than each of them.";
+			}
 		}
-		echo "<a href=\"./index.php\">Compare more numbers</a>"
+		echo "<a href=\"./index.php\">Compare more numbers</a>";
 	}else{
 		// User input wrong
 		echo "<h1>User Input Wrong</h1><br>
-		<a href=\"./index.php\">Back</a>"
+		<a href=\"./index.php\">Back</a>";
 	}
 }else{
 	// User has not entered anything, Show form
@@ -34,5 +35,5 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 	<input type=\"submit\" value=\"Submit\">
 	</form><hr>";
 }
-include './footer.php'
+include './footer.php';
 ?>
