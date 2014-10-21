@@ -33,7 +33,7 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 	Number 2: <input type=\"text\" name=\"number2\"><br>
 	Number 3: <input type=\"text\" name=\"number3\"><br>
 	<input type=\"submit\" value=\"Submit\">
-	</form><hr>";
+	</form>";
 }
 include './footer.php';
 ?>
