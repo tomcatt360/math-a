@@ -1,7 +1,7 @@
 <?php
 include './header.php';
 
-echo "<h1>tomcatt's Number Comparator<h1>";
+echo "<h1>tomcatt's Number Comparator</h1>";
 
 $number1=$_GET[number1];
 $number2=$_GET[number2];
@@ -15,9 +15,11 @@ if ($number1 != null && $number2 != null) {
 		}else{
 			echo "Numbers 1 & 2 are equal";
 		}
+		echo "<br><a href=\"./index.php\">Compare more numbers</a>";
 	}else{
 		// User input wrong
-		echo "<h1>User Input Wrong</h1>";
+		echo "<h1>User Input Wrong</h1>
+		<a href=\"./index.php\">Try Again</a>";
 	}
 }else{
 	// User has not entered anything, Show form
@@ -25,7 +27,7 @@ if ($number1 != null && $number2 != null) {
 	Number 1: <input type=\"text\" name=\"number1\"><br>
 	Number 2: <input type=\"text\" name=\"number2\"><br>
 	<input type=\"submit\" value=\"Submit\">
-	</form><hr>";
+	</form>";
 }
 include './footer.php';
 ?>
