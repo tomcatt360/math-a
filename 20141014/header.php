@@ -1,5 +1,5 @@
 <html>
 	<head>
-		<title></title>
+		<title>tomcatt's 3-Number Comparator</title>
 	</head>
 <body>

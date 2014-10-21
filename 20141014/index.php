@@ -1,7 +1,7 @@
 <?php
 include './header.php';
 
-echo "<h1>tomcatt's Number Comparator</h1>2.0";
+echo "<h1>tomcatt's 3-Number Comparator</h1>";
 
 $number1=$_GET[number1];
 $number2=$_GET[number2];
