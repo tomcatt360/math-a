@@ -19,6 +19,22 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 			}else{
 				echo "Number 1 and Number 2 are equal, Number 3 is greater than each of them.";
 			}
+		}elseif($number1 > $number2){
+			if ($number2 > $number3){
+				echo "Number 1 is greater than Number 2. Number 2 is greater than Number 3.";
+			}elseif ($number1 > $number3){
+				echo "Number 1 is greater than Number 3. Number 3 is greater than number 2.";
+			}else{
+				echo "Number 3 is greater than number 1. Number 1 is greater than number 2.";
+			}
+		}elseif ($number2 > $number1){
+			if ($number1 > $number3){
+                                echo "Number 2 is greater than Number 1. Number 1 is greater than Number 3.";
+                        }elseif ($number2 > $number3){
+                                echo "Number 2 is greater than Number 3. Number 3 is greater than number 1.";
+                        }else{
+                                echo "Number 3 is greater than number 2. Number 2 is greater than number 1.";
+			}
 		}
 		echo "<a href=\"./index.php\">Compare more numbers</a>";
 	}else{
