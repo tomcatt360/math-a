@@ -10,7 +10,7 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 	if (is_numeric($number1) && is_numeric($number2) && is_numeric($number3)){
 		// If the numbers are not null, and the numbers are truly numbers, Process input.
 		$numbers = array($number1, $number2, $number3);
-		sort ($numbers);
+		natsort ($numbers);
 		foreach ($numbers as $key => $val) {
 			echo "numbers[" . $key . "] = " . $val . "\n";
 		}
