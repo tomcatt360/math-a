@@ -9,10 +9,14 @@ $number3=$_GET[number3];
 if ($number1 != null && $number2 != null && $number3 != null) {
 	if (is_numeric($number1) && is_numeric($number2) && is_numeric($number3)){
 		// If the numbers are not null, and the numbers are truly numbers, Process input.
-		$numbers = array($number1, $number2, $number3);
+		$numbers = [
+			"Number1" => $number1,
+			"Number2" => $number2,
+			"Number3" => $number3,
+			];
 		natsort ($numbers);
 		foreach ($numbers as $key => $val) {
-			echo "numbers[" . $key . "] = " . $val . "\n";
+			echo "" . $key . " = " . $val . "\n<br>";
 		}
 		echo "<br><a href=\"./index.php\">Compare more numbers</a>";
 	}else{
