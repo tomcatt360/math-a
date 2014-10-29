@@ -15,8 +15,9 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 			"Number3" => $number3,
 			];
 		natsort ($numbers);
+		echo "The numbers are now sorted from smallest to largest:<p>";
 		foreach ($numbers as $key => $val) {
-			echo "" . $key . " = " . $val . "\n<br>";
+			echo "The value of " . $key . " is " . $val . "\n<br>";
 		}
 		echo "<br><a href=\"./index.php\">Compare more numbers</a>";
 	}else{
