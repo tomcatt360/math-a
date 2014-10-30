@@ -12,7 +12,7 @@
 				<a href="./20140908/">20140908 - Temperature Converter</a><br>
 				<a href="./20140930/">20140830 - Two-Number Comparator</a><br>
 				<a href="./20141014/">20141014 - Three-Number Comparator</a><br>
-				<a href="./20141023/">20141023 - Three-Number Comparator v2</a><b>In Construction</b>
+				<a href="./20141023/">20141023 - Three-Number Comparator v2</a><br>
 			</p>
 		</center>
 		<p><a href="index.txt">View Source</a></p>
