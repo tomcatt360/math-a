@@ -10,9 +10,9 @@ if ($number1 != null && $number2 != null && $number3 != null) {
 	if (is_numeric($number1) && is_numeric($number2) && is_numeric($number3)){
 		// If the numbers are not null, and the numbers are truly numbers, Process input.
 		$numbers = [
-			"Number1" => $number1,
-			"Number2" => $number2,
-			"Number3" => $number3,
+			"Number 1" => $number1,
+			"Number 2" => $number2,
+			"Number 3" => $number3,
 			];
 		natsort ($numbers);
 		echo "The numbers are now sorted from smallest to largest:<p>";
