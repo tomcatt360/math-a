@@ -13,6 +13,7 @@
 				<a href="./20140930/">20140830 - Two-Number Comparator</a><br>
 				<a href="./20141014/">20141014 - Three-Number Comparator</a><br>
 				<a href="./20141023/">20141023 - Three-Number Comparator v2</a><br>
+				<a href="./20141103/">20141103 - Numeric Sequencer</a><b> In Construction</b>
 			</p>
 		</center>
 		<p><a href="index.txt">View Source</a></p>
