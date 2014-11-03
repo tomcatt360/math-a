@@ -1,5 +1,5 @@
 <html>
 	<head>
-		<title>Template</title>
+		<title>Numeric Sequencer</title>
 	</head>
 <body>
