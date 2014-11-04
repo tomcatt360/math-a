@@ -44,7 +44,7 @@
 				<?php } ?>
 				<p><a href="http://208.94.240.5/20140908">Convert Again</a></p>
 			<?php } ?>
-			<p><a href="http://208.94.240.5">Home</a></p>
+			<p><a href="../index.php">Home</a></p>
 		</center>
 		<p><a href="index.txt">View Source</a></p>
 	</body>
