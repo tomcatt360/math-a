@@ -9,13 +9,22 @@ echo "<h1>Numeric Sequencer</h1>";
 
 if ($_GET[start] != null && $_GET[stop] != null){
 	if (is_numeric($_GET[start]) && is_numeric($_GET[stop])){
-		$start=$_GET[start];
-		$stop=$_GET[stop];
+		if ($_GET[start] < $_GET[stop]){
+			echo "<a href=\"./index.php\">Make another sequence</a><br>";
+			$start=$_GET[start];
+			$stop=$_GET[stop];
 
-		while ($start <= $stop){
-			echo "$start<br>";
-			$start = $start + 1;
+			while ($start <= $stop){
+				echo "$start<br>";
+				$start = $start + 1;
+			}
+		}else{
+			echo "<h1>Start value greater than Stop value</h1>
+			<a href=\"./index.php\">Try Again</a>";
 		}
+	}else{
+		echo "<h1>User input wrong</h1>
+		<a href=\"./index.php\">Try again</a>";
 	}
 }else{
 	//user has not entered anything, show html form
