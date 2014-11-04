@@ -13,11 +13,19 @@ if ($_GET[start] != null && $_GET[stop] != null){
 			echo "<a href=\"./index.php\">Make another sequence</a><br>";
 			$start=$_GET[start];
 			$stop=$_GET[stop];
-
+			echo "<table>";
 			while ($start <= $stop){
-				echo "$start<br>";
-				$start = $start + 1;
+				echo "<tr>";
+				//TODO change to a for loop
+				$t=0;
+				while ($t<10){
+					$t=$t+1;
+					echo "<td>$start</td>";
+					$start = $start + 1;
+				}
+				echo "</tr>";
 			}
+			echo "</table>";
 		}else{
 			echo "<h1>Start value greater than Stop value</h1>
 			<a href=\"./index.php\">Try Again</a>";
