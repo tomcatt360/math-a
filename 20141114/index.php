@@ -15,14 +15,14 @@ if ($_GET[start] != null && $_GET[stop] != null){
 			$stop=$_GET[stop];
 			echo "<table>";
 			while ($start <= $stop){
-				echo "<tr>";
-				//TODO change to a for loop
-				$t=0;
-				while ($t<10){
-					$t=$t+1;
-					echo "<td>$start</td>";
-					$start = $start + 1;
+				if ($start % 2){
+					echo "<tr bgcolor=\"grey\">";
+				}else{
+					echo "<tr bgcolor=\"white\">";
 				}
+					
+				echo "<td>$start</td>";
+				$start = $start + 1;		
 				echo "</tr>";
 			}
 			echo "</table>";
