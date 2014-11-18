@@ -1,5 +1,5 @@
 <html>
 	<head>
-		<title>Template</title>
+		<title>Division and Modulus</title>
 	</head>
 <body>

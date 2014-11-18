@@ -14,7 +14,8 @@
 				<a href="./20141014/">20141014 - Three-Number Comparator</a><br>
 				<a href="./20141023/">20141023 - Three-Number Comparator v2</a><br>
 				<a href="./20141103/">20141103 - Numeric Sequencer v1.0</a><br>
-				<a href="./20141114/">20141114 - Numeric sequencer v2.0</a>
+				<a href="./20141114/">20141114 - Numeric sequencer v2.0</a><br>
+				<a href="./20141118/">20141118 - Division and Modulus</a><b>In Construction</b><br>
 			</p>
 		</center>
 		<p><a href="index.txt">View Source</a></p>
